@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interactive-rating-component-main/dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="interactive-rating-component-main/js/script.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body class="font-Overpass bg-Very-Dark-Blue ">
+    <div class="flex items-center justify-center h-screen relative :">
+        <div class='holder bg-gradient-to-b from-Dark-Blue to-Very-Dark-Blue px-5 py-10 w-96 md:w-96 md:h-96 rounded-lg absolute'>
+            <div class="star rounded-full bg-gradient-to-b from-Very-Dark-Blue to-Dark-Blue  w-10 h-10 flex items-center justify-center">
+                <img class="h-4" src="../interactive-rating-component-main/images/icon-star.svg" alt="">
+            </div>
+            <div class="text-container text-White my-3">
+                <h2 class=" my-4 font-bold text-2xl">How did we do?</h2>
+                <p class="text-Medium-Grey text-text-smer">Please let us know how we did with your support request. All feedback is appreciated 
+                    to help us improve our offering!</p>
+            </div>
+            <div class="number text-Medium-Grey my-5 flex items-center justify-center gap-5">
+                <span class="rounded-full span cursor-pointer w-8 h-8 flex justify-center items-center duration-200 hover:bg-White ">1</span>
+                <span class="rounded-full span cursor-pointer w-8 h-8 flex justify-center items-center duration-200 hover:bg-White  ">2</span>
+                <span class="rounded-full span cursor-pointer w-8 h-8 flex justify-center items-center duration-200 hover:bg-White  ">3</span>
+                <span class="rounded-full span cursor-pointer w-8 h-8 flex justify-center items-center duration-200 hover:bg-White  ">4</span>
+                <span class="rounded-full span cursor-pointer w-8 h-8 flex justify-center items-center duration-200 hover:bg-White  ">5</span>
+            </div>
+            <button class="text-White bg-Orange w-full p-1.5 rounded-2xl hover:bg-White hover:text-Orange duration-200 ">Submit</button>
+        </div>
+        <div class='holder-two bg-gradient-to-b from-Dark-Blue to-Very-Dark-Blue px-5 py-10 w-96 md:w-96 md:h-96 rounded-lg '>
+            <div class="thanks  flex items-center justify-center">
+                <img class="h-28" src="../interactive-rating-component-main/images/illustration-thank-you.svg" alt="">
+            </div>
+            <div class="text-container my-5 rounded-3xl text-center py-2 text-Orange w-48 m-auto bg-gradient-to-b from-Dark-Blue to-Dark-Blue text-xs">
+                <span class="selected"></span>
+            </div>
+            <div class="text mt-5 text-center">
+                <h2 class="text-White text-2xl mb-2">Thank you!</h2>
+                <p class="text-Light-Grey">We appreciate you taking the time to give a rating. If you ever need more support, 
+                    don’t hesitate to get in touch!</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

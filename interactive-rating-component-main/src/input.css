@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-class {
+    @apply bg-Orange duration-200 text-White
+}
